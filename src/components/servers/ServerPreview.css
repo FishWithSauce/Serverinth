@@ -1,0 +1,33 @@
+.serverPreview {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background-color: var(--main_dark);
+    margin: 0 0 0 20px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.serverPreview-inner {
+    position: relative;
+    width: 170px;
+    height: 180px;
+    background-color: var(--dark_lighter);
+    left: 15px;
+    top: 15px;
+    border-radius: 20px;
+}
+
+.serverPreview:active {
+    transform: scale(0.9, 0.9);
+}
+
+.serverTitle {
+    position: relative;
+    top: 30px;
+    font-family: Roboto;
+}

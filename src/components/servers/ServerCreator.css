@@ -1,0 +1,359 @@
+.blureBackground {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-top-left-radius: 20px;
+    opacity: 0.5;
+}
+
+.serverCreator {
+    position: absolute;
+    width: 500px;
+    height: 650px;
+    background-color: var(--dark_lighter);
+    left: calc(((100% - 70px) / 2) - 250px);
+    top: calc(((100% - 50px) / 2) - 300px); /*280*/
+    border-radius: 10px;
+}
+
+.serverCreator-header {
+    position: relative;
+    width: 500px;
+    height: 80px;
+    background-color: var(--main_dark);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.serverCreator-header-title {
+    position: absolute;
+    top: 29px;
+    left: 20px;
+    color: white;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.serverCreator-import {
+    position: relative;
+    width: 460px;
+    height: 70px;
+    left: 20px;
+    /*background-color: red;*/
+    border-bottom: 2px solid var(--detail);
+}
+
+.customButton {
+    position: absolute;
+    left: 0;
+    width: 100px;
+    height: 30px;
+    top: 20px;
+    background-color: var(--main_dark);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.customButton:active {
+    transform: scale(0.9);
+}
+
+.fromModrinthButton {
+    position: absolute;
+    width: 133px;
+    height: 30px;
+    top: 20px;
+    left: 120px;
+    background-color: var(--main_dark);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.fromModrinthButton:active {
+    transform: scale(0.9);
+}
+
+.serverFolderButton {
+    position: absolute;
+    width: 133px;
+    height: 30px;
+    top: 20px;
+    left: 273px;
+    background-color: var(--main_dark);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.serverFolderButton:active {
+    transform: scale(0.9);
+}
+
+.customButton-text {
+    position: absolute;
+    top: 6px;
+    left: 22px;
+    font-size: 15px;
+    font-family: Roboto;
+    color: white;
+}
+
+.serverCreator-header-close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 450px;
+    top: 27px;
+    color: var(--detail);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.serverCreator-header-close:active {
+    scale: 0.9;
+}
+
+.serverCreator-header-close:hover {
+    background-color: var(--dark_lighter);
+}
+
+#closeButton {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+
+.serverCreator-profile {
+    position: relative;
+    width: 460px;
+    height: 100px;
+    left: 20px;
+    color: var(--detail);
+    font-size: 30px;
+    /*border-bottom: 2px solid var(--detail);*/
+}
+
+.serverCreator-profile-image {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top: 20px;
+    background-color: var(--main_dark);
+    border-radius: 10px;
+}
+
+#imageIcon {
+    position: relative;
+    left: 5px;
+    top: 5px;
+    font-size: 50px;
+}
+
+.serverCreator-profile-select {
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    top: 32px;
+    left: 80px;
+    background-color: var(--main_dark);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#selectIcon {
+    position: relative;
+    top: 2px;
+    left: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#selectIcon-text {
+    position: relative;
+    left: 20px;
+    top: -4px;
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    cursor: pointer;
+}
+
+#serverCreator-profile-select-input {
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.serverCreator-profile-delete {
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    top: 32px;
+    left: 240px;
+    background-color: var(--main_dark);
+    border-radius: 10px;
+    cursor:not-allowed;
+}
+
+#deleteIcon {
+    position: relative;
+    top: 2px;
+    left: 10px;
+    color: var(--highlight);
+}
+
+#deleteIcon-text {
+    position: relative;
+    left: 20px;
+    top: -4px;
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    color: var(--highlight);
+}
+
+.serverCreator-title {
+    position: relative;
+    width: 460px;
+    height: 100px;
+    left: 20px;
+    color: var(--detail);
+    font-size: 30px;
+    /*border-bottom: 2px solid var(--detail);*/
+}
+
+.serverCreator-presentationTitle {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+}
+
+.serverCreator-title-input {
+    position: absolute;
+    top: 40px;
+    height: 35px;
+    width: 300px;
+    border: 1px solid white;
+    outline: none;
+    padding: 0 15px 0 15px;
+    font-family: Roboto;
+    color: white;
+    background-color: var(--main_dark);
+    border-radius: 10px;
+    border: solid 1px var(--main_dark);
+}
+
+.serverCreator-loader {
+    position: relative;
+    width: 460px;
+    height: 150px;
+    left: 20px;
+    color: var(--detail);
+    font-size: 30px;
+    /*border-bottom: 2px solid var(--detail);*/
+}
+
+.typeSelecotorButton {
+    position: relative;
+    width: 120px;
+    height: 30px;
+    top: 40px;
+    background-color: var(--main_dark);
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.typeSelecotorButton:active {
+    transform: scale(0.9);
+}
+
+#mod {
+    left: 20px;
+}
+
+#plugin {
+    left: 40px;
+}
+
+.typeSelecotorButton-text {
+    position: relative;
+    top: -7px;
+    font-family: Roboto;
+    font-size: 15px;
+    color: white;
+}
+
+.serverCreator-loader-buttonBox {
+    position: absolute;
+    width: 460px;
+    height: 40px;
+    top: 90px;
+}
+
+.versionButton {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    top: 5px;
+    background-color: var(--main_dark);
+    border-radius: 7px;
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    float: left;
+    text-align: center;
+    transition: 0.2s;
+    margin: 0 0 0 10px;
+}
+
+.versionButton:active {
+    transform: scale(0.9);
+}
+
+.versionButton-text {
+    position: relative;
+    top: 5px;
+}
+
+.serverCreator-version {
+    position: relative;
+    width: 460px;
+    height: 95px;
+    left: 20px;
+    color: var(--detail);
+    font-size: 30px;
+    
+}
+
+.serverCreator-version-title {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+}
+
+.serverCreator-version-select {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    top: 40px;
+    background-color: var(--main_dark);
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    border: var(--main_dark);
+    border-radius: 5px;
+}

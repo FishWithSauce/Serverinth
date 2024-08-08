@@ -1,0 +1,15 @@
+:root {
+  --main_dark: #404258;
+  --dark_lighter: #474E68;
+  --highlight: #50577A;
+  --detail: #6B728E;
+
+  /*https://colorhunt.co/palette/404258474e6850577a6b728e*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--main_dark);
+  user-select: none;
+}

@@ -1,0 +1,128 @@
+.nav {
+    position: absolute;
+    top: 50px;
+    width: 70px;
+    height: calc(100% - 50px);
+    background-color: var(--main_dark);
+}
+
+.addButton {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    color: var(--main_dark);
+    border-radius: 15px;
+    background-color: #1b9943;
+    border: solid 1px rgb(27, 153, 67);
+    left: 10px;
+    top: calc(100% - 140px);
+    transition: 0.2s;
+}
+
+.addButton:hover {
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.addButton:active {
+    transform: scale(0.9, 0.9);
+}
+
+#addButton-text {
+    position: relative;
+}
+
+.settingsButton {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    color: var(--detail);
+    border-radius: 15px;
+    background-color: var(--main_dark);
+    border: solid 1px var(--main_dark);
+    left: 10px;
+    top: calc(100% - 125px);
+    transition: 0.2s;
+}
+
+.settingsButton:hover {
+    background-color: var(--dark_lighter);
+}
+
+.settingsButton:active {
+    transform: scale(0.9, 0.9);
+}
+
+#settingsButton-text {
+    position: relative;
+    top: 2px;
+}
+
+.homeButton {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    color: var(--detail);
+    border-radius: 15px;
+    background-color: var(--dark_lighter);
+    border: solid 1px var(--main_dark);
+    left: 10px;
+    top: -75px;
+    transition: 0.2s;
+}
+
+.homeButton:active {
+    transform: scale(0.9, 0.9);
+}
+
+#homeButton-text {
+    position: relative;
+    top: 2px;
+}
+
+.libraryButton {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    color: var(--detail);
+    border-radius: 15px;
+    background-color: var(--main_dark);
+    border: solid 1px var(--main_dark);
+    left: 10px;
+    top: -55px;
+    transition: 0.2s;
+}
+
+.libraryButton:hover {
+    background-color: var(--dark_lighter);
+}
+
+.libraryButton:active {
+    transform: scale(0.9, 0.9);
+}
+
+#libraryButton-text {
+    position: relative;
+    top: 2px;
+}
+
+.searchButton {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    color: var(--detail);
+    border-radius: 15px;
+    background-color: var(--main_dark);
+    border: solid 1px var(--main_dark);
+    left: 10px;
+    top: -35px;
+    transition: 0.2s;
+}
+
+.searchButton:hover {
+    background-color: var(--dark_lighter);
+}
+
+.searchButton:active {
+    transform: scale(0.9, 0.9);
+}

@@ -1,0 +1,14 @@
+.view {
+    position: absolute;
+    height: calc(100% - 50px);
+    width: calc(100% - 70px);
+    top: 50px;
+    left: 70px;
+    background-color: var(--dark_lighter);
+    border-top-left-radius: 20px;
+}
+
+.previewList {
+    position: relative;
+    left: -20px;
+}
